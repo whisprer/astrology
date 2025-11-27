@@ -12,6 +12,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      
+      # DEBUG: Check if icon exists
+      - name: Check icon file
+        run: |
+          if (Test-Path src/wolfstrology.ico) {
+            Write-Host "✓ Icon file found"
+            Get-Item src/woflstrology.ico | Format-List
+          } else {
+            Write-Host "✗ Icon file NOT found"
+          }
+        shell: pwsh
+      
       - run: pip install pyswisseph pytz geopy pyinstaller
       - run: pyinstaller --onefile --icon=src/woflstrology.ico --add-data "src/horoscope_database.json;." --name "WolfStrology-Windows" src/woflstrology-v0.0.5.py
       - uses: actions/upload-artifact@v4
@@ -26,6 +38,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      
+      # DEBUG: Check if icon exists
+      - name: Check icon file
+        run: |
+          if [ -f src/woflstrology.icns ]; then
+            echo "✓ Icon file found"
+            ls -lh src/woflstrology.icns
+          else
+            echo "✗ Icon file NOT found"
+          fi
+      
       - run: pip install pyswisseph pytz geopy pyinstaller
       - run: pyinstaller --onefile --icon=src/woflstrology.icns --add-data "src/horoscope_database.json:." --name "WolfStrology-macOS" src/woflstrology-v0.0.5.py
       - run: chmod +x dist/WolfStrology-macOS
