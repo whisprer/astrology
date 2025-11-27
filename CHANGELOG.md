@@ -19,8 +19,13 @@ v0.0.5:	added compatibility analyser with update to db to add various advices on
 
 :: [test executables created using GitHub actions workflow to distribute to test subject for feedback - needed macOS and Linux versions hence use of workflows]
 
-v0.0.6:	
+v0.0.6:	Added natal chart reading option
 
+v0.0.7:	Added expanded 'Aspect' meaning readings
+
+v0.0.8:	Fixed output ofAspect readings to display properly full info and extended to all Aspects not just 10
+
+v0.0.9:	
 
 
 initial 202511262304

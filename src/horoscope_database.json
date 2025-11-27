@@ -239,5 +239,605 @@
         "Intensity reaches levels that feel almost unbearable. The question becomes whether you're destroying something necessary or releasing what no longer serves."
       ]
     }
+  },
+  "natal_chart": {
+    "planet_in_sign": {
+      "Sun_Aries": "Your core identity is driven by initiative, courage, and the need to pioneer new paths. You define yourself through action and leadership.",
+      "Sun_Taurus": "Your essence is rooted in stability, sensuality, and the appreciation of lasting value. You define yourself through what you build and preserve.",
+      "Sun_Gemini": "Your identity centers on communication, curiosity, and mental agility. You define yourself through ideas and connections.",
+      "Sun_Cancer": "Your core self is nurturing, protective, and emotionally intuitive. You define yourself through care and emotional bonds.",
+      "Sun_Leo": "Your essence radiates creativity, warmth, and self-expression. You define yourself through generosity and authentic presence.",
+      "Sun_Virgo": "Your identity is grounded in service, analysis, and refinement. You define yourself through improvement and practical contribution.",
+      "Sun_Libra": "Your core self seeks harmony, beauty, and partnership. You define yourself through relationships and aesthetic balance.",
+      "Sun_Scorpio": "Your essence pulses with intensity, depth, and transformative power. You define yourself through psychological insight and regeneration.",
+      "Sun_Sagittarius": "Your identity expands through exploration, philosophy, and optimism. You define yourself through seeking truth and meaning.",
+      "Sun_Capricorn": "Your core self is ambitious, disciplined, and structurally minded. You define yourself through achievement and mastery.",
+      "Sun_Aquarius": "Your essence is innovative, independent, and humanistic. You define yourself through originality and collective vision.",
+      "Sun_Pisces": "Your identity dissolves boundaries through compassion, imagination, and spiritual connection. You define yourself through transcendence and empathy.",
+      
+      "Moon_Aries": "Emotionally, you need spontaneity, independence, and direct action to feel secure.",
+      "Moon_Taurus": "Emotionally, you need stability, physical comfort, and predictable routines to feel secure.",
+      "Moon_Gemini": "Emotionally, you need mental stimulation, variety, and communication to feel secure.",
+      "Moon_Cancer": "Emotionally, you need deep nurturing, family connection, and emotional safety to feel secure.",
+      "Moon_Leo": "Emotionally, you need recognition, creative expression, and heartfelt appreciation to feel secure.",
+      "Moon_Virgo": "Emotionally, you need order, usefulness, and the ability to help others to feel secure.",
+      "Moon_Libra": "Emotionally, you need harmony, partnership, and aesthetic beauty to feel secure.",
+      "Moon_Scorpio": "Emotionally, you need depth, privacy, and intense connection to feel secure.",
+      "Moon_Sagittarius": "Emotionally, you need freedom, adventure, and philosophical meaning to feel secure.",
+      "Moon_Capricorn": "Emotionally, you need structure, respect, and tangible achievement to feel secure.",
+      "Moon_Aquarius": "Emotionally, you need independence, intellectual freedom, and social ideals to feel secure.",
+      "Moon_Pisces": "Emotionally, you need spiritual connection, creative flow, and compassionate understanding to feel secure.",
+      
+      "Mercury_Aries": "Your mind processes information quickly and decisively, favoring direct communication over nuance.",
+      "Mercury_Taurus": "Your mind processes information slowly and thoroughly, building concrete understanding over time.",
+      "Mercury_Gemini": "Your mind processes information rapidly through multiple channels, connecting diverse ideas effortlessly.",
+      "Mercury_Cancer": "Your mind processes information through emotional filters, remembering feelings as much as facts.",
+      "Mercury_Leo": "Your mind processes information dramatically, expressing ideas with creative flair and confidence.",
+      "Mercury_Virgo": "Your mind processes information analytically, noticing details others overlook and organizing methodically.",
+      "Mercury_Libra": "Your mind processes information through comparison, weighing multiple perspectives before deciding.",
+      "Mercury_Scorpio": "Your mind processes information deeply, investigating beneath surface appearances to uncover hidden truths.",
+      "Mercury_Sagittarius": "Your mind processes information expansively, connecting ideas to larger philosophical frameworks.",
+      "Mercury_Capricorn": "Your mind processes information practically, focusing on useful applications and structural logic.",
+      "Mercury_Aquarius": "Your mind processes information innovatively, making unexpected connections and valuing original thinking.",
+      "Mercury_Pisces": "Your mind processes information intuitively, understanding through symbols, metaphors, and creative association.",
+      
+      "Venus_Aries": "You express love through passionate pursuit and bold romantic gestures, valuing excitement over stability.",
+      "Venus_Taurus": "You express love through physical affection and material gestures, valuing loyalty and sensory pleasure.",
+      "Venus_Gemini": "You express love through playful communication and intellectual connection, valuing variety and wit.",
+      "Venus_Cancer": "You express love through nurturing care and emotional devotion, valuing security and tenderness.",
+      "Venus_Leo": "You express love through generous displays and dramatic romance, valuing admiration and warmth.",
+      "Venus_Virgo": "You express love through practical service and thoughtful gestures, valuing usefulness and refinement.",
+      "Venus_Libra": "You express love through romantic idealism and partnership balance, valuing harmony and beauty.",
+      "Venus_Scorpio": "You express love through intense intimacy and emotional depth, valuing transformation and loyalty.",
+      "Venus_Sagittarius": "You express love through adventurous exploration and philosophical connection, valuing freedom and honesty.",
+      "Venus_Capricorn": "You express love through committed actions and lasting bonds, valuing respect and stability.",
+      "Venus_Aquarius": "You express love through friendship and intellectual rapport, valuing independence and uniqueness.",
+      "Venus_Pisces": "You express love through selfless compassion and spiritual union, valuing empathy and romance.",
+      
+      "Mars_Aries": "You pursue goals with direct aggression and competitive drive, acting on impulse without hesitation.",
+      "Mars_Taurus": "You pursue goals with steady determination and physical strength, acting methodically with endurance.",
+      "Mars_Gemini": "You pursue goals with mental agility and versatile tactics, acting on ideas and communication.",
+      "Mars_Cancer": "You pursue goals with emotional intensity and protective instinct, acting to defend what you nurture.",
+      "Mars_Leo": "You pursue goals with creative confidence and dramatic flair, acting to express your personal power.",
+      "Mars_Virgo": "You pursue goals with precise efficiency and strategic planning, acting through careful analysis.",
+      "Mars_Scorpio": "You pursue goals with ruthless focus and transformative intensity, acting from deep psychological drives.",
+      "Mars_Sagittarius": "You pursue goals with adventurous enthusiasm and philosophical conviction, acting on belief and optimism.",
+      "Mars_Capricorn": "You pursue goals with disciplined ambition and strategic patience, acting to build lasting achievement.",
+      "Mars_Aquarius": "You pursue goals with innovative rebellion and intellectual strategy, acting on principles and ideals.",
+      "Mars_Pisces": "You pursue goals with intuitive flow and compassionate action, acting when emotionally or spiritually moved."
+        },
+
+    "natal_retrograde": {
+      "Mercury": "Born with Mercury retrograde, you process information internally before expressing it. Your thinking style may differ from conventional patterns, offering unique insights others miss. Communication feels more natural when you've had time to reflect.",
+      "Venus": "Born with Venus retrograde, you internalize questions about love and value. Relationships and self-worth develop through inner work rather than external validation. You may revisit past relationship patterns to understand what you truly desire.",
+      "Mars": "Born with Mars retrograde, you direct your drive and anger inward initially. Action comes after internal processing rather than immediate reaction. You may struggle with assertiveness but develop powerful self-directed motivation.",
+      "Jupiter": "Born with Jupiter retrograde, you find meaning through internal philosophy rather than external belief systems. Growth comes from questioning received wisdom and developing personal understanding of truth.",
+      "Saturn": "Born with Saturn retrograde, you internalize authority and discipline. Self-criticism may be stronger than external judgment. You build structures through inner work, often achieving mastery later in life.",
+      "Uranus": "Born with Uranus retrograde, rebellion and innovation happen internally first. You may feel like an outsider but develop unique perspectives that eventually revolutionize your personal world.",
+      "Neptune": "Born with Neptune retrograde, spiritual connection flows inward. Dreams and intuition are personal rather than collective. You may feel disconnected from mass illusions, seeing through them clearly.",
+      "Pluto": "Born with Pluto retrograde, transformation operates primarily within. You process power dynamics and psychological depths internally, emerging with profound self-knowledge."
+    },
+    
+    "aspects": {
+      "conjunction": {
+        "description": "When planets align within 8 degrees, their energies merge and amplify each other.",
+        "interpretation": "These planets work as a unified force in your life, their qualities inseparable and intensified."
+      },
+      "opposition": {
+        "description": "When planets sit 180 degrees apart (±8°), they create tension between opposing needs.",
+        "interpretation": "You experience these planetary energies as internal or external conflict requiring integration and balance."
+      },
+      "trine": {
+        "description": "When planets form a 120-degree angle (±8°), their energies flow harmoniously.",
+        "interpretation": "These planetary qualities support each other naturally, creating talent and ease in related areas."
+      },
+      "square": {
+        "description": "When planets form a 90-degree angle (±8°), they create friction and dynamic tension.",
+        "interpretation": "These planetary energies clash, creating challenges that drive growth and development through struggle."
+      },
+      "sextile": {
+        "description": "When planets form a 60-degree angle (±6°), they offer cooperative potential.",
+        "interpretation": "These planetary qualities work well together when consciously activated, offering opportunities for creative problem-solving."
+      }
+    },
+    
+    "rising_sign": {
+      "Aries": "You approach life with direct energy and competitive spirit. Others see you as bold, sometimes impulsive, but always authentic in your immediate reactions.",
+      "Taurus": "You approach life with calm steadiness and sensory awareness. Others see you as grounded, reliable, and appreciative of quality and comfort.",
+      "Gemini": "You approach life with curiosity and communicative openness. Others see you as quick-witted, versatile, and intellectually engaging.",
+      "Cancer": "You approach life with emotional sensitivity and protective caution. Others see you as nurturing, empathetic, and sometimes guarded.",
+      "Leo": "You approach life with creative confidence and generous warmth. Others see you as magnetic, dramatic, and radiating self-assurance.",
+      "Virgo": "You approach life with analytical precision and helpful service. Others see you as detailed-oriented, modest, and practically competent.",
+      "Libra": "You approach life with diplomatic grace and aesthetic awareness. Others see you as charming, fair-minded, and socially skilled.",
+      "Scorpio": "You approach life with intense focus and emotional depth. Others see you as powerful, mysterious, and psychologically penetrating.",
+      "Sagittarius": "You approach life with optimistic exploration and philosophical openness. Others see you as adventurous, honest, and expansively minded.",
+      "Capricorn": "You approach life with disciplined ambition and strategic reserve. Others see you as mature, responsible, and goal-oriented.",
+      "Aquarius": "You approach life with innovative independence and humanitarian ideals. Others see you as original, unconventional, and intellectually principled.",
+      "Pisces": "You approach life with compassionate sensitivity and creative imagination. Others see you as empathetic, spiritual, and artistically inclined."
+    },
+
+    "aspect_interpretations": {
+      "Sun_Moon": {
+        "conjunction": "Your conscious identity and emotional nature are unified. What you want and what you need align naturally, creating inner coherence. Throughout your life, you've likely found it easier than most to understand yourself, though you may lack the perspective that comes from internal tension.",
+        "opposition": "You were born with tension between your will and your needs. What your ego wants often conflicts with what makes you feel secure. This has manifested as external conflicts with authority figures or internal battles between reason and emotion. Over time, you develop the ability to integrate these opposing forces, becoming a bridge between different perspectives.",
+        "trine": "You have natural ease between your conscious purpose and emotional instincts. Self-expression flows effortlessly, and you've likely experienced support from both father and mother figures. Your challenge is ensuring this ease doesn't breed complacency—your talent for harmony should be actively developed rather than taken for granted.",
+        "square": "Your identity and emotional needs create dynamic tension. You've struggled with feeling torn between what you should do and what you need. This friction has been uncomfortable but generative, forcing you to develop self-awareness through conflict. As you mature, this tension becomes the engine of your growth.",
+        "sextile": "Your will and emotions cooperate when consciously activated. You have latent talent for emotional intelligence and self-awareness, but must actively develop these gifts. Opportunities to integrate head and heart appear throughout your life, requiring your initiative to manifest."
+      },
+      
+      "Sun_Mercury": {
+        "conjunction": "Your identity and communication are inseparable—you are what you think and say. Self-expression through words or ideas feels natural, though you may struggle to see perspectives beyond your own. Your mind and ego merge, making you articulate about who you are but potentially blind to how you think.",
+        "sextile": "When you engage your mind, you express yourself clearly and authentically. Writing, speaking, or intellectual pursuits align naturally with your sense of self when you make the effort. Your thoughts enhance your identity when consciously developed."
+      },
+      
+      "Sun_Venus": {
+        "conjunction": "Your sense of self is deeply connected to beauty, relationships, and what you value. You likely possess natural charm and creative talent. Love and self-worth are intertwined—when relationships go well, you feel strong; when they suffer, your identity wavers. Learning to value yourself independent of others is your journey.",
+        "sextile": "You have latent artistic ability and social grace that enhance your identity when developed. Creative pursuits and relationships support your sense of self when you actively engage them. Beauty and harmony are tools available to strengthen who you are."
+      },
+      
+      "Sun_Mars": {
+        "conjunction": "Your will and drive are one. You act decisively and identify strongly with your ability to take action. Aggression and assertion feel natural, though you may struggle with patience. Throughout life, you've been the initiator, the warrior, the one who moves first. Your challenge is learning when not to act.",
+        "opposition": "You were born with your will facing opposition. What you want provokes resistance, either from external forces or internal sabotage. This has taught you about power dynamics and the art of strategic assertion. Relationships may feel like battles until you learn to integrate cooperation with your natural combativeness.",
+        "trine": "Physical energy and willpower flow naturally to support your goals. You've likely found success through direct action and maintain good vitality. Your challenge is ensuring this ease doesn't make you insensitive to those who must struggle more for what you achieve effortlessly.",
+        "square": "Your will and drive create internal or external friction. You've experienced frustration when trying to assert yourself, leading to either repressed anger or excessive aggression. This tension has forced you to develop mastery over your impulses and strategic thinking about when and how to act.",
+        "sextile": "When you consciously direct your energy, you accomplish your goals effectively. Physical activity, assertiveness training, or competitive pursuits enhance your sense of self when you engage them intentionally."
+      },
+      
+      "Sun_Jupiter": {
+        "conjunction": "Your identity expands naturally. Optimism, generosity, and faith in yourself come easily. You may have been told you're 'lucky,' though this is really confidence creating opportunity. Your challenge is avoiding inflation—believing your own hype can lead to overextension. When grounded, your expansive nature inspires others.",
+        "opposition": "Your sense of self conflicts with your beliefs and aspirations. What you are tensions against what you believe you should become. This has manifested as philosophical crises or conflicts between personal needs and ethical ideals. Integration comes through recognizing that who you are and what you believe must align.",
+        "trine": "Growth and opportunity flow naturally to you. You've experienced fortunate timing and helpful mentors throughout life. Education, travel, and philosophical pursuits enhance your identity effortlessly. Your challenge is using these gifts purposefully rather than squandering natural advantages.",
+        "square": "Your growth requires overcoming obstacles. Expansion feels difficult—either blocked by external circumstances or internal doubt. This friction has taught you that meaning must be earned, not assumed. Your hard-won wisdom runs deeper than those who received easy answers.",
+        "sextile": "Educational, philosophical, or travel opportunities enhance your identity when you actively pursue them. Growth is available but requires your initiative to manifest."
+      },
+      
+      "Sun_Saturn": {
+        "conjunction": "Your identity formed under pressure. Responsibility, limitation, or authority figures shaped who you became. You take yourself seriously, perhaps too seriously. Maturity came early, possibly through hardship. Your gift is endurance; your challenge is allowing lightness and spontaneity.",
+        "opposition": "You were born facing authority. Father figures, society, or your own harsh self-judgment have opposed your self-expression. This external or internal restriction has forced you to earn your right to exist. As you mature, you become your own authority, no longer requiring external validation.",
+        "trine": "Discipline and structure support your identity naturally. You've maintained good boundaries and realistic self-assessment. Time has been your friend—aging likely brings increased respect and achievement. Your challenge is ensuring your natural conservatism doesn't prevent necessary risks.",
+        "square": "Your identity development faced obstacles. Self-expression met criticism or restriction, teaching you that becoming yourself requires persistent effort. Feelings of inadequacy have driven you to achieve, but also created harsh self-judgment. Integration comes through self-compassion while maintaining discipline.",
+        "sextile": "When you apply discipline and structure, you strengthen your identity. Career achievement, time management, or taking on responsibility enhances who you are when consciously pursued."
+      },
+      
+      "Sun_Uranus": {
+        "conjunction": "You are fundamentally different. Rebellion, innovation, and independence define your identity. You've never fit conventional molds and have likely experienced both the freedom and loneliness of being unique. Your authenticity is revolutionary, though maintaining relationships while being yourself requires conscious effort.",
+        "opposition": "Your identity provokes disruption. Who you are challenges others or society challenges who you're becoming. Sudden changes have shaped your life—unexpected events forcing you to become more authentically yourself. Relationships feel unstable until you find partners who celebrate rather than fear your uniqueness.",
+        "trine": "Innovation and independence enhance your identity naturally. You've maintained authenticity without excessive rebellion. Change comes easily and you adapt to new situations gracefully. Your challenge is using your progressive nature to benefit others, not just yourself.",
+        "square": "Becoming yourself required breaking patterns. Your authenticity has been disrupted by external forces or internal chaos. This tension has forced you to fight for the right to be different. Your originality was hard-won through repeated upheaval.",
+        "sextile": "When you embrace innovation and independence, you enhance your identity. Technology, progressive movements, or unconventional pursuits strengthen who you are when actively engaged."
+      },
+      
+      "Sun_Neptune": {
+        "conjunction": "Your identity dissolves boundaries. Who you are merges with imagination, spirituality, or illusion. You may struggle with a clear sense of self—either through confusion about who you are or transcendent experiences that reveal the ego as construct. Your gift is compassion and creativity; your challenge is maintaining healthy boundaries.",
+        "opposition": "Your sense of self conflicts with idealism or illusion. What you are tensions against what you imagine or what others project onto you. This has manifested as identity confusion or disillusionment when reality fails to match dreams. Integration comes through grounding your visions in authentic self-knowledge.",
+        "trine": "Imagination and spirituality support your identity naturally. Creative or mystical pursuits enhance who you are effortlessly. You've likely experienced fortunate dissolving of ego boundaries—through art, meditation, or love—that expanded your sense of self. Your challenge is maintaining groundedness.",
+        "square": "Your identity formation involved confusion or deception. Who you are has been obscured by illusions—either self-created fantasies or projections from others. This difficult relationship with reality has forced you to develop discernment between truth and wishful thinking.",
+        "sextile": "When you engage creativity or spirituality, you enhance your identity. Artistic pursuits, meditation, or compassionate service strengthen who you are when consciously developed."
+      },
+      
+      "Sun_Pluto": {
+        "conjunction": "Your identity is intense and transformative. Power dynamics, death and rebirth, and psychological depth define your self-concept. You've likely experienced profound transformations that destroyed and remade who you are. Your presence is magnetic but potentially overwhelming. Learning to wield power responsibly is your life's work.",
+        "opposition": "Your sense of self faces intense external pressure. Power struggles with authority figures or transformative crises have forced you to confront who you really are beneath social masks. This has been traumatic but ultimately empowering—you cannot be destroyed because you've already been through fire.",
+        "trine": "Transformation and psychological insight enhance your identity naturally. You've processed difficult experiences and emerged stronger. Crisis situations reveal your strength. Your challenge is using your natural intensity to empower others, not dominate them.",
+        "square": "Your identity development involved power struggles. Becoming yourself required confronting forces—internal or external—that sought to control or suppress you. This painful friction has given you profound self-knowledge and the ability to help others through their own transformations.",
+        "sextile": "When you engage with depth psychology, crisis situations, or transformation processes, you strengthen your identity. Therapy, shadow work, or empowering others enhances who you are when actively pursued."
+      },
+      
+      "Moon_Mercury": {
+        "conjunction": "Your emotions and thoughts merge. You process feelings through analysis and think emotionally. This creates eloquence about inner experience but potential difficulty separating feeling from fact. You need to talk about your feelings and may overthink emotional situations.",
+        "opposition": "Your emotional needs conflict with your rational mind. What you feel tensions against what you think. This has created internal debates between heart and head. Integration comes through valuing both emotional truth and logical analysis.",
+        "trine": "Your emotions and intellect support each other naturally. You articulate feelings clearly and understand emotions intellectually. Journaling or talking through feelings comes easily. Your emotional intelligence is a natural gift.",
+        "square": "Your feelings and thoughts create friction. Emotional reactions interfere with clear thinking or excessive analysis blocks authentic feeling. This tension has forced you to develop sophisticated emotional intelligence through struggle.",
+        "sextile": "When you apply intellect to emotions, you gain valuable self-understanding. Writing, therapy, or emotional analysis enhances your wellbeing when actively pursued."
+      },
+      
+      "Moon_Venus": {
+        "conjunction": "Your emotional needs and capacity for love merge. You need beauty, harmony, and affection to feel secure. Relationships are essential to your wellbeing. Artistic expression may come naturally as a way to process feelings.",
+        "opposition": "Your emotional security conflicts with relationship needs. What makes you feel safe tensions against what love requires. This has created patterns of choosing between self-care and partnership. Integration comes through relationships that honor your emotional truth.",
+        "trine": "Love and emotional security support each other naturally in your life. You've likely experienced nurturing relationships and possess natural grace. Beauty and harmony enhance your emotional wellbeing effortlessly.",
+        "square": "Your need for security conflicts with your need for love. Emotional safety and relationship happiness have felt mutually exclusive. This friction has forced you to develop capacity for both intimacy and independence.",
+        "sextile": "When you engage creativity or seek beautiful environments, your emotional wellbeing improves. Artistic pursuits or cultivating harmonious relationships enhances your security when consciously developed."
+      },
+      
+      "Moon_Mars": {
+        "conjunction": "Your emotions and anger merge. You feel intensely and react quickly. Emotional security requires the freedom to assert yourself. You may have learned to suppress reactive emotions or struggle with emotional volatility. Integration comes through healthy expression of emotional needs.",
+        "opposition": "Your emotional needs face aggressive opposition. What makes you feel safe provokes conflict or your anger threatens your security. This has taught painful lessons about assertion versus aggression. Integration requires finding safe ways to express emotional intensity.",
+        "trine": "Emotional expression and assertiveness flow naturally together. You defend your feelings effectively and maintain good emotional boundaries. Your emotional honesty and directness are gifts when used consciously.",
+        "square": "Your emotions and drive create internal conflict. Anger may threaten emotional security or emotional needs block necessary action. This friction has forced you to develop mastery over reactive impulses.",
+        "sextile": "When you assert emotional boundaries or engage physical activity, your emotional wellbeing improves. Exercise or healthy confrontation enhances your security when actively pursued."
+      },
+      
+      "Moon_Jupiter": {
+        "conjunction": "Your emotional nature is expansive and optimistic. You need growth, meaning, and generosity to feel secure. Emotional abundance comes naturally but can lead to emotional excess—overgiving or emotional inflation.",
+        "opposition": "Your emotional security conflicts with your need for expansion. What makes you feel safe tensions against your desire for growth. This has created patterns of choosing between comfort and adventure. Integration comes through finding emotional security in the journey itself.",
+        "trine": "Optimism and emotional wellbeing support each other naturally. You've maintained emotional resilience and faith in life. Philosophical or spiritual pursuits enhance your emotional security effortlessly.",
+        "square": "Your emotional needs conflict with your aspirations. Security and growth feel mutually exclusive. This friction has forced you to develop emotional wisdom through confronting where safety ends and stagnation begins.",
+        "sextile": "When you engage philosophical exploration or generous activities, your emotional wellbeing improves. Travel, education, or giving to others enhances your security when consciously pursued."
+      },
+      
+      "Moon_Saturn": {
+        "conjunction": "Your emotional nature is serious and disciplined. You may have experienced emotional restriction in childhood, learning to be responsible for your feelings. Emotional security comes through structure, achievement, and self-control. Your challenge is allowing vulnerability.",
+        "opposition": "Your emotional needs face restriction. What makes you feel safe is opposed by responsibility, criticism, or limitation. This has taught painful lessons about emotional self-sufficiency. Integration comes through self-compassion while maintaining maturity.",
+        "trine": "Emotional discipline and security support each other naturally. You maintain good emotional boundaries and realistic expectations. Time has been kind to your emotional development. Your challenge is ensuring emotional self-control doesn't become emotional suppression.",
+        "square": "Your emotional needs and sense of responsibility conflict. Feelings have been criticized, restricted, or deemed inappropriate. This friction has forced you to develop emotional resilience while learning to honor vulnerable feelings.",
+        "sextile": "When you apply structure to emotional life, your wellbeing improves. Creating routines, setting boundaries, or taking emotional responsibility enhances your security when actively pursued."
+      },
+      
+      "Moon_Uranus": {
+        "conjunction": "Your emotional nature is unpredictable and independent. You need freedom and excitement to feel secure—a paradoxical need for security through instability. Emotional expression is authentic but potentially disruptive. Conventional emotional patterns feel constraining.",
+        "opposition": "Your emotional security faces disruption. What makes you feel safe is challenged by sudden change or need for independence. This has created tension between stability and freedom. Integration comes through finding security in adaptability itself.",
+        "trine": "Independence and emotional security coexist naturally. You maintain emotional authenticity without excessive rebellion. Change enhances rather than threatens your wellbeing. Your emotional uniqueness is a gift.",
+        "square": "Your emotional needs conflict with your need for freedom. Security and independence feel mutually exclusive. This friction has forced you to develop capacity for both emotional connection and autonomous individuality.",
+        "sextile": "When you embrace change or assert independence, your emotional wellbeing improves. Trying new experiences or honoring your uniqueness enhances your security when actively pursued."
+      },
+      
+      "Moon_Neptune": {
+        "conjunction": "Your emotional nature is boundaryless and empathic. You absorb others' feelings and may struggle to distinguish your emotions from theirs. Spiritual or creative pursuits provide emotional fulfillment. Your challenge is maintaining healthy emotional boundaries while honoring your gift for compassion.",
+        "opposition": "Your emotional needs conflict with your idealism. What makes you feel secure tensions against your dreams or compassion for others. This has created patterns of sacrificing emotional wellbeing for others or disillusionment when reality fails to match fantasies. Integration comes through grounded compassion.",
+        "trine": "Imagination and emotional security support each other naturally. Creative or spiritual pursuits enhance your wellbeing effortlessly. Your emotional sensitivity is a gift that flows without overwhelming you.",
+        "square": "Your emotional needs conflict with your ideals. Security and compassion feel mutually exclusive or emotional clarity is obscured by fantasy. This friction has forced you to develop discernment about emotional truth versus illusion.",
+        "sextile": "When you engage creativity or spiritual practices, your emotional wellbeing improves. Artistic expression, meditation, or compassionate service enhances your security when actively pursued."
+      },
+      
+      "Moon_Pluto": {
+        "conjunction": "Your emotional nature is intense and transformative. You feel deeply and may experience emotions as overwhelming or dangerous. Emotional security requires confronting shadow material and accepting your power. Your feelings have the capacity to transform both yourself and others.",
+        "opposition": "Your emotional needs face intense pressure. What makes you feel secure is challenged by power dynamics, crisis, or deep psychological material. This has forced you to confront emotional depths most avoid. Integration comes through accepting your emotional intensity as strength.",
+        "trine": "Emotional depth and security support each other naturally. You process difficult feelings effectively and emerge stronger from emotional crises. Your capacity for emotional transformation is a natural gift.",
+        "square": "Your emotional needs conflict with power dynamics. Security and control feel mutually exclusive or deep feelings threaten emotional stability. This friction has forced you to develop mastery over intense emotional states.",
+        "sextile": "When you engage depth work or face emotional intensity, your wellbeing improves. Therapy, shadow work, or transformative experiences enhance your security when actively pursued."
+      },
+      
+      "Mercury_Venus": {
+        "conjunction": "Your thinking and aesthetic sense merge. You think about beauty, relationships, and harmony. Communication is charming and diplomatic. You may possess talent for writing about love or creating beautiful language.",
+        "sextile": "When you apply intellect to relationships or beauty, insights emerge. Writing, discussing aesthetics, or thinking through relationship dynamics enhances your life when consciously pursued."
+      },
+      
+      "Mercury_Mars": {
+        "conjunction": "Your mind is sharp and aggressive. You think quickly, speak directly, and may argue for sport. Mental energy is high but patience for slow thinking is low. Your challenge is tempering intellectual aggression with consideration.",
+        "opposition": "Your thinking faces aggressive challenge. Your ideas provoke conflict or anger interferes with clear thought. This has taught you to defend your positions effectively while learning when combat is necessary.",
+        "trine": "Mental energy and clear thinking support each other naturally. You make decisions quickly and communicate assertively without excessive aggression. Your mental sharpness is a natural gift.",
+        "square": "Your thoughts and drive conflict. Anger disrupts clear thinking or mental analysis blocks necessary action. This friction has forced you to develop capacity for both strategic thought and decisive action.",
+        "sextile": "When you apply mental energy to problem-solving or engage debate, your thinking sharpens. Intellectual competition or assertive communication enhances your cognition when actively pursued."
+      },
+      
+      "Mercury_Jupiter": {
+        "conjunction": "Your mind expands naturally. You think big, see patterns, and connect ideas to larger frameworks. Optimism colors your thinking—you see possibilities but may overlook practical limitations. Teaching or philosophical writing may come naturally.",
+        "opposition": "Your practical thinking conflicts with expansive vision. Details and big picture tension against each other. This has taught you to balance analysis with synthesis, though the two still feel opposed.",
+        "trine": "Broad thinking and practical intellect support each other naturally. You see both forest and trees effortlessly. Educational pursuits or philosophical exploration enhance your mind naturally.",
+        "square": "Your thinking and beliefs conflict. Practical analysis clashes with philosophical conviction or expansive thinking ignores necessary details. This friction has forced you to develop capacity for both precision and vision.",
+        "sextile": "When you engage broad study or philosophical thinking, your intellect expands. Education, travel, or connecting ideas to larger meaning enhances your mind when actively pursued."
+      },
+      
+      "Mercury_Saturn": {
+        "conjunction": "Your mind is serious and disciplined. You think carefully, speak precisely, and may be pessimistic in analysis. Mental work requires effort but produces lasting results. Your challenge is allowing spontaneous or playful thinking.",
+        "opposition": "Your thinking faces criticism or restriction. Ideas are opposed by authority or harsh self-judgment makes thinking difficult. This has taught you to build mental discipline while learning not to censor too harshly.",
+        "trine": "Mental discipline and clear thinking support each other naturally. You organize thoughts effectively and communicate with authority. Time improves your thinking—you grow wiser with age.",
+        "square": "Your thinking and sense of limitation conflict. Mental expression has been criticized or negative thinking restricts possibilities. This friction has forced you to develop realistic thinking while not surrendering to pessimism.",
+        "sextile": "When you apply structure to thinking, your mind strengthens. Systematic study, careful planning, or disciplined writing enhances your intellect when actively pursued."
+      },
+      
+      "Mercury_Uranus": {
+        "conjunction": "Your mind is innovative and unconventional. You think originally, make unexpected connections, and may have genius-level insights. Your challenge is communicating radical ideas in ways others can understand.",
+        "opposition": "Your thinking is disrupted by sudden insights or rebellious ideas. Conventional thought and innovation tension against each other. This has taught you to balance tradition and originality.",
+        "trine": "Original thinking and clear communication support each other naturally. Insights come easily and you express innovation without excessive chaos. Your mental uniqueness is a gift.",
+        "square": "Your thinking and need for innovation conflict. Original ideas disrupt clear thought or mental chaos prevents useful conclusions. This friction has forced you to develop capacity for both creativity and coherence.",
+        "sextile": "When you embrace unconventional thinking, your intellect expands. Technology, progressive ideas, or innovative problem-solving enhances your mind when actively pursued."
+      },
+      
+      "Mercury_Neptune": {
+        "conjunction": "Your mind is imaginative and intuitive. You think in symbols, images, and metaphors. Logical precision is difficult but creative or spiritual thinking flows naturally. Your challenge is distinguishing inspiration from confusion.",
+        "opposition": "Your rational mind conflicts with imagination. Logic and intuition tension against each other. This has taught you that different kinds of knowing serve different purposes.",
+        "trine": "Imagination and clear thinking support each other naturally. You articulate intuitive insights and understand spiritual concepts intellectually. Your capacity to translate between logic and mystery is a gift.",
+        "square": "Your thinking and imagination conflict. Confusion clouds analysis or excessive rationality blocks intuitive knowing. This friction has forced you to develop capacity for both logical thought and mystical understanding.",
+        "sextile": "When you engage creative or spiritual thinking, insights emerge. Artistic pursuits, meditation, or symbolic interpretation enhances your intellect when actively pursued."
+      },
+      
+      "Mercury_Pluto": {
+        "conjunction": "Your mind penetrates deeply. You think psychologically, see hidden motives, and may be obsessed with understanding truth beneath surface appearances. Your mental intensity can be overwhelming to others. Your challenge is using insight to empower rather than manipulate.",
+        "opposition": "Your thinking faces intense challenge. Ideas are met with power struggles or mental obsession disrupts clear thought. This has taught you about the power dynamics of knowledge and the responsibility of insight.",
+        "trine": "Deep thinking and mental clarity support each other naturally. You research effectively, understand complex psychological dynamics, and see through deception easily. Your mental depth is a gift.",
+        "square": "Your thinking and power dynamics conflict. Mental obsession blocks clear analysis or insight provokes power struggles. This friction has forced you to develop mastery over your own mind.",
+        "sextile": "When you engage deep research or psychological analysis, your understanding grows. Investigating hidden truths or studying transformation enhances your intellect when actively pursued."
+      },
+      
+      "Venus_Mars": {
+        "conjunction": "Your capacity for love and assertion merge. You pursue what you want romantically with direct energy. Sexual and romantic energy flow naturally together. Your challenge is balancing pursuit with receptivity.",
+        "opposition": "Your need for harmony conflicts with your drive. What love requires tensions against what action demands. This has taught you about the balance between aggression and cooperation in relationships.",
+        "trine": "Love and drive support each other naturally. You pursue relationships effectively and maintain passionate connections. Your romantic confidence is a gift.",
+        "square": "Your capacity for love and your drive conflict. Passion becomes aggression or pursuit disrupts harmony. This friction has forced you to develop capacity for both assertiveness and diplomacy in love.",
+        "sextile": "When you assert yourself in relationships, connections deepen. Direct communication or passionate pursuit enhances love when actively practiced."
+      },
+      
+      "Venus_Jupiter": {
+        "conjunction": "Your capacity for love expands naturally. You give generously and believe in abundance. Relationships and creativity flow easily but may involve excess—overgiving, overindulgence, or inflated expectations.",
+        "opposition": "Your need for love conflicts with your need for freedom. Intimacy and expansion tension against each other. This has taught you about the balance between commitment and growth.",
+        "trine": "Love and growth support each other naturally. Relationships expand your world and opportunities enhance your capacity for connection. Your generosity in love is a gift.",
+        "square": "Your capacity for love and your aspirations conflict. Relationships feel limiting or growth disrupts connections. This friction has forced you to develop capacity for both intimacy and expansion.",
+        "sextile": "When you bring optimism to relationships, connections deepen. Generosity, philosophical exploration with partners, or growing through love enhances life when actively pursued."
+      },
+      
+      "Venus_Saturn": {
+        "conjunction": "Your capacity for love is serious and mature. You take relationships seriously, possibly too seriously. Commitment comes naturally but spontaneity in love requires effort. Your challenge is allowing lightness into intimate connections.",
+        "opposition": "Your need for love faces restriction. Relationships are met with obstacles, criticism, or responsibility. This has taught painful lessons about earning love and the maturity required for lasting connection.",
+        "trine": "Love and responsibility support each other naturally. You maintain committed relationships and realistic expectations. Time deepens your capacity for connection. Your loyalty is a gift.",
+        "square": "Your capacity for love and your limitations conflict. Relationships feel restricted or fear blocks intimate connection. This friction has forced you to develop capacity for both commitment and vulnerability.",
+        "sextile": "When you bring maturity to relationships, connections deepen. Taking responsibility, honoring commitments, or building lasting partnerships enhances love when actively pursued."
+      },
+      
+      "Venus_Uranus": {
+        "conjunction": "Your capacity for love is unconventional and free. You need independence in relationships and attract unusual partners. Traditional romance feels constraining. Your challenge is maintaining connection while honoring your need for freedom.",
+        "opposition": "Your need for love conflicts with your need for independence. Intimacy and freedom tension against each other. This has created unstable relationship patterns until you learn to integrate both needs.",
+        "trine": "Love and independence support each other naturally. You maintain authentic relationships without excessive rebellion. Your unique approach to connection is a gift.",
+        "square": "Your capacity for love and your need for freedom conflict. Relationships feel constraining or independence prevents intimacy. This friction has forced you to develop capacity for both connection and autonomy.",
+        "sextile": "When you honor uniqueness in relationships, connections deepen. Unconventional partnerships or maintaining independence within intimacy enhances love when actively practiced."
+      },
+      
+      "Venus_Neptune": {
+        "conjunction": "Your capacity for love is boundaryless and idealistic. You seek spiritual union and may fall in love with potential rather than reality. Romantic illusions come naturally. Your challenge is seeing partners clearly while honoring your capacity for transcendent love.",
+        "opposition": "Your need for love conflicts with your ideals. Reality disappoints romantic fantasies or compassion for others sacrifices your needs. This has taught you about the difference between love and rescuing.",
+        "trine": "Love and spirituality support each other naturally. You experience transcendent connection and creative romance flows effortlessly. Your capacity for unconditional love is a gift.",
+        "square": "Your capacity for love and your ideals conflict. Illusion clouds relationships or harsh reality shatters romantic dreams. This friction has forced you to develop capacity for both transcendent love and clear-eyed reality.",
+        "sextile": "When you bring spirituality to relationships, connections deepen. Creative romance, compassionate love, or artistic expression enhances intimacy when actively pursued."
+      },
+      
+      "Venus_Pluto": {
+        "conjunction": "Your capacity for love is intense and transformative. You seek profound connection and experience relationships as psychologically deep. Love and power merge—you may struggle with possessiveness or attract power dynamics. Your challenge is using intensity to transform rather than control.",
+        "opposition": "Your need for love faces intense pressure. Relationships involve power struggles or transformation disrupts connection. This has taught you about the shadow side of intimacy and the responsibility of emotional intensity.",
+        "trine": "Love and transformation support each other naturally. You form deep bonds and process relationship challenges effectively. Your capacity for profound intimacy is a gift.",
+        "square": "Your capacity for love and power dynamics conflict. Intensity threatens connection or control masquerades as love. This friction has forced you to develop capacity for both depth and healthy boundaries.",
+        "sextile": "When you embrace emotional depth in relationships, connections transform. Psychological insight, shadow work with partners, or empowering love enhances intimacy when actively pursued."
+      },
+      
+      "Mars_Jupiter": {
+        "conjunction": "Your drive expands naturally. You take bold action and believe in your ability to achieve. Energy is abundant but may lead to overextension—doing too much or taking excessive risks.",
+        "opposition": "Your drive conflicts with your beliefs. Action and philosophy tension against each other. This has taught you about aligning what you do with what you believe.",
+        "trine": "Drive and optimism support each other naturally. You pursue goals with confidence and energy serves your aspirations effortlessly. Your entrepreneurial spirit is a gift.",
+        "square": "Your drive and your beliefs conflict. Action contradicts philosophy or aspirations block necessary steps. This friction has forced you to develop integrity between what you do and what you believe.",
+        "sextile": "When you align action with belief, success follows. Adventurous pursuits or goal-oriented philosophy enhances achievement when actively practiced."
+      },
+      
+      "Mars_Saturn": {
+        "conjunction": "Your drive is disciplined and strategic. You act with patience and plan carefully. Energy is controlled, possibly too controlled. Your challenge is allowing spontaneous action alongside strategic planning.",
+        "opposition": "Your drive faces restriction. Action is met with obstacles or responsibility limits initiative. This has taught painful lessons about earning achievement and the discipline required for lasting success.",
+        "trine": "Drive and discipline support each other naturally. You pursue goals strategically and maintain sustained effort. Time rewards your persistence. Your endurance is a gift.",
+        "square": "Your drive and your limitations conflict. Action feels restricted or frustration builds from delayed gratification. This friction has forced you to develop mastery over impulse and strategic thinking.",
+        "sextile": "When you apply discipline to action, achievement follows. Strategic planning, sustained effort, or patient pursuit enhances success when actively practiced."
+      },
+      
+      "Mars_Uranus": {
+        "conjunction": "Your drive is explosive and innovative. You act suddenly, rebel naturally, and may have breakthrough energy followed by burnout. Your challenge is channeling erratic energy productively.",
+        "opposition": "Your drive is disrupted unpredictably. Action provokes unexpected responses or sudden urges interfere with sustained effort. This has taught you to adapt quickly and expect the unexpected.",
+        "trine": "Drive and innovation support each other naturally. You act on original ideas and adapt quickly to changing circumstances. Your entrepreneurial independence is a gift.",
+        "square": "Your drive and need for freedom conflict. Impulsive action disrupts goals or restriction triggers rebellion. This friction has forced you to develop capacity for both discipline and spontaneity.",
+        "sextile": "When you embrace innovative action, breakthroughs occur. Trying new approaches or honoring impulses enhances achievement when actively practiced."
+      },
+      
+      "Mars_Neptune": {
+        "conjunction": "Your drive dissolves into spirit. You act on inspiration, compassion, or creative vision. Direct aggression feels wrong but passive-aggression may be a problem. Your challenge is asserting yourself while honoring spiritual values.",
+        "opposition": "Your drive conflicts with your ideals. Action seems unspiritual or compassion blocks necessary assertion. This has taught you about the balance between being and doing.",
+        "trine": "Drive and spirituality support each other naturally. You act on inspiration and pursue goals compassionately. Your ability to combine action with grace is a gift.",
+        "square": "Your drive and your ideals conflict. Action feels tainted or confusion blocks clear initiative. This friction has forced you to develop capacity for both decisive action and spiritual surrender.",
+        "sextile": "When you act on inspiration, manifestation follows. Creative pursuits, compassionate action, or spiritual practices enhance achievement when actively practiced."
+      },
+      
+      "Mars_Pluto": {
+        "conjunction": "Your drive is intensely powerful. You pursue goals with ruthless focus and possess tremendous willpower. Energy is transformative but potentially destructive. Your challenge is using power to empower rather than dominate.",
+        "opposition": "Your drive faces intense opposition. Action provokes power struggles or internal compulsion battles conscious will. This has taught you about the responsible use of power and the necessity of strategic restraint.",
+        "trine": "Drive and transformation support each other naturally. You pursue goals with focus and overcome obstacles through sheer will. Your capacity to regenerate energy is a gift.",
+        "square": "Your drive and power dynamics conflict. Compulsive action battles conscious control or assertion provokes intense resistance. This friction has forced you to develop mastery over primal drives.",
+        "sextile": "When you apply focused intensity to goals, transformation occurs. Psychological work on drive, powerful assertion, or crisis action enhances achievement when actively practiced."      }
+    },
+    
+    "chart_patterns": {
+      "grand_trine": {
+        "description": "Three planets form a perfect triangle (120° apart), creating a circuit of flowing energy.",
+        "interpretation": "You possess natural talent and ease in these areas. This gift flows so naturally you may take it for granted. The challenge is actively developing this innate ability rather than coasting on natural advantage. When consciously directed, this pattern becomes a source of profound creative power."
+      },
+      "grand_cross": {
+        "description": "Four planets form a cross pattern (two oppositions squared to each other), creating maximum tension.",
+        "interpretation": "You face intense, ongoing challenges that require constant navigation. Life has felt like a battleground where opposing forces demand impossible compromises. This is the aspect pattern of those who achieve mastery through struggle—your obstacles are your curriculum. Integration comes through developing the center point where all forces balance."
+      },
+      "t_square": {
+        "description": "Three planets form a T-shape (two planets oppose each other, both square a third planet at the apex).",
+        "interpretation": "You experience focused, dynamic tension driving you toward the apex planet. This creates frustration but also tremendous motivation for achievement. The empty leg (opposite the apex) indicates where you must develop capacity to release tension. This pattern belongs to driven individuals who accomplish much through channeling internal pressure."
+      },
+      "stellium": {
+        "description": "Three or more planets clustered in the same sign or house, concentrating energy.",
+        "interpretation": "You have intense focus and specialized talent in this area, but potential blind spots elsewhere. This concentration creates expertise but also imbalance—you see everything through this lens. Your challenge is developing other life areas while honoring where your power naturally concentrates."
+      },
+      "yod": {
+        "description": "Two planets sextile each other, both quincunx (150°) a third planet at the apex—the 'Finger of God'.",
+        "interpretation": "You have a fated mission or special purpose focused through the apex planet. This pattern creates a sense of destiny or being pointed toward something specific. The quincunx aspects create constant adjustment and refinement. Your life has likely featured synchronicities guiding you toward your unique calling."
+      },
+      "kite": {
+        "description": "A Grand Trine with a fourth planet opposing one point and sextile the other two.",
+        "interpretation": "You have natural talent (the trine) grounded by real-world application (the opposition). This pattern provides both ease and motivation—the kite flies because of the tension in the string. Your gifts manifest practically rather than remaining latent potential."
+      }
+    },
+    
+    "elements": {
+      "Fire": {
+        "keywords": "action, enthusiasm, inspiration, initiative, courage",
+        "high": "You are naturally energetic, enthusiastic, and action-oriented. Initiative comes easily and you inspire others through your passion. Your challenge is developing patience and considering consequences before acting.",
+        "balanced": "You maintain healthy drive and enthusiasm balanced with other qualities. Action and inspiration serve your life without dominating it.",
+        "low": "You may struggle with initiative, motivation, or self-confidence. Developing courage to take risks and express yourself boldly would enhance your life. Physical activity and passionate pursuits can awaken this dormant energy."
+      },
+      "Earth": {
+        "keywords": "practicality, stability, sensuality, persistence, material focus",
+        "high": "You are naturally grounded, practical, and focused on tangible results. Building lasting structures and working with physical reality comes easily. Your challenge is allowing spontaneity and not becoming overly materialistic or resistant to change.",
+        "balanced": "You maintain healthy connection to physical reality balanced with other dimensions. Practicality serves your life without limiting it.",
+        "low": "You may struggle with practical matters, financial stability, or follow-through. Developing patience and appreciation for gradual, tangible progress would enhance your life. Engaging your body and senses can awaken this dormant quality."
+      },
+      "Air": {
+        "keywords": "thought, communication, ideas, social connection, objectivity",
+        "high": "You are naturally intellectual, communicative, and socially skilled. Ideas and connections flow easily and you excel at objective analysis. Your challenge is staying grounded in your body and honoring emotional truth alongside rational thought.",
+        "balanced": "You maintain healthy intellectual and social engagement balanced with other aspects of life. Mental activity serves you without disconnecting you from embodied experience.",
+        "low": "You may struggle with clear thinking, communication, or social connection. Developing curiosity and willingness to share ideas would enhance your life. Reading, writing, and conversation can awaken this dormant quality."
+      },
+      "Water": {
+        "keywords": "emotion, intuition, empathy, depth, sensitivity",
+        "high": "You are naturally emotional, intuitive, and empathic. Depth and sensitivity come easily and you understand the invisible emotional currents others miss. Your challenge is maintaining boundaries and not drowning in feelings.",
+        "balanced": "You maintain healthy emotional depth and intuition balanced with other qualities. Feelings inform your life without overwhelming it.",
+        "low": "You may struggle with emotional expression, empathy, or intuitive knowing. Developing comfort with vulnerability and honoring feelings would enhance your life. Creative expression and water (literally) can awaken this dormant quality."
+      }
+    },
+    
+    "modalities": {
+      "Cardinal": {
+        "keywords": "initiative, leadership, starting, pioneering",
+        "high": "You excel at initiating, leading, and starting new ventures. You're a natural pioneer but may struggle with follow-through. Your challenge is completing what you begin.",
+        "balanced": "You initiate appropriately—starting what needs starting without compulsively beginning and abandoning projects.",
+        "low": "You may struggle with initiative or leadership. Developing comfort with being first or taking charge would enhance your effectiveness."
+      },
+      "Fixed": {
+        "keywords": "persistence, stability, determination, stubbornness",
+        "high": "You excel at sustained effort, loyalty, and seeing things through. You're naturally persistent but may be inflexible. Your challenge is allowing change when circumstances demand it.",
+        "balanced": "You persist appropriately—maintaining stability without rigidity, adapting when necessary.",
+        "low": "You may struggle with commitment or endurance. Developing capacity to sustain effort and resist distraction would enhance your achievements."
+      },
+      "Mutable": {
+        "keywords": "adaptability, flexibility, change, variety",
+        "high": "You excel at adapting, learning, and handling change. You're naturally flexible but may lack focus or commitment. Your challenge is choosing a direction and sticking with it.",
+        "balanced": "You adapt appropriately—flexible when needed, committed when appropriate.",
+        "low": "You may struggle with change or new situations. Developing comfort with uncertainty and willingness to adapt would enhance your resilience."
+      }
+    },
+    
+    "dominant_planet": {
+      "Sun": "Solar energy dominates your chart. Identity, self-expression, and creative vitality are central to your life purpose. You're here to shine, lead, and express your unique essence. Your challenge is balancing healthy self-focus with consideration for others.",
+      "Moon": "Lunar energy dominates your chart. Emotions, nurturing, and security needs are central to your life purpose. You're here to feel deeply, care for others, and honor cyclical rhythms. Your challenge is maintaining boundaries while staying emotionally open.",
+      "Mercury": "Mercurial energy dominates your chart. Communication, learning, and mental connection are central to your life purpose. You're here to think, speak, write, and connect ideas. Your challenge is balancing mental activity with embodied experience.",
+      "Venus": "Venusian energy dominates your chart. Love, beauty, and values are central to your life purpose. You're here to appreciate beauty, form relationships, and create harmony. Your challenge is maintaining self-worth independent of others' approval.",
+      "Mars": "Martial energy dominates your chart. Action, assertion, and willpower are central to your life purpose. You're here to take initiative, fight for what matters, and embody courage. Your challenge is balancing aggression with cooperation.",
+      "Jupiter": "Jovian energy dominates your chart. Growth, meaning, and expansion are central to your life purpose. You're here to explore, learn, teach, and inspire optimism. Your challenge is avoiding excess and staying grounded.",
+      "Saturn": "Saturnine energy dominates your chart. Structure, discipline, and mastery are central to your life purpose. You're here to build lasting achievements through patient effort. Your challenge is allowing joy and spontaneity alongside discipline.",
+      "Uranus": "Uranian energy dominates your chart. Innovation, freedom, and authenticity are central to your life purpose. You're here to revolutionize, break patterns, and express originality. Your challenge is maintaining relationships while being radically yourself.",
+      "Neptune": "Neptunian energy dominates your chart. Spirituality, creativity, and transcendence are central to your life purpose. You're here to dissolve boundaries, imagine alternatives, and embody compassion. Your challenge is staying grounded in reality.",
+      "Pluto": "Plutonian energy dominates your chart. Transformation, power, and depth are central to your life purpose. You're here to confront shadow material, facilitate rebirth, and wield intensity responsibly. Your challenge is using power to empower rather than control."
+    },
+    
+    "planetary_hours": {
+      "Sun": "This hour is ruled by the Sun—favorable for leadership, self-expression, creativity, and matters of identity. Shine your light.",
+      "Moon": "This hour is ruled by the Moon—favorable for emotional matters, nurturing, domestic activities, and intuitive work. Honor your feelings.",
+      "Mercury": "This hour is ruled by Mercury—favorable for communication, learning, writing, commerce, and travel. Share your ideas.",
+      "Venus": "This hour is ruled by Venus—favorable for love, beauty, art, pleasure, and socializing. Appreciate and create beauty.",
+      "Mars": "This hour is ruled by Mars—favorable for physical activity, assertion, beginning new ventures, and competitive pursuits. Take action.",
+      "Jupiter": "This hour is ruled by Jupiter—favorable for expansion, education, legal matters, philosophy, and optimistic endeavors. Think big.",
+      "Saturn": "This hour is ruled by Saturn—favorable for serious work, long-term planning, discipline, and dealing with authority. Build foundations."
+    },
+    
+    "transits": {
+      "conjunction": {
+        "Sun": "Current identity focus intensifies this natal point. What this planet represents becomes central to your self-expression right now.",
+        "Moon": "Emotional needs and security concerns activate this natal point. You feel this area of life deeply in the present moment.",
+        "Mercury": "Mental attention and communication focus on this natal point. You're thinking, talking, and learning about this area now.",
+        "Venus": "Love, value, and attraction energize this natal point. Beauty and harmony manifest through this area currently.",
+        "Mars": "Action and assertion target this natal point. You have energy to initiate and pursue goals in this area now.",
+        "Jupiter": "Growth and opportunity expand this natal point. Optimism and possibility open in this area currently.",
+        "Saturn": "Responsibility and testing focus on this natal point. You're building lasting structures or facing limitations here now.",
+        "Uranus": "Change and awakening disrupt this natal point. Unexpected shifts and new freedom emerge in this area currently.",
+        "Neptune": "Spirituality and dissolution affect this natal point. Boundaries blur and imagination activates here now.",
+        "Pluto": "Transformation and intensity concentrate on this natal point. Death and rebirth processes are active in this area currently."
+      },
+      "opposition": {
+        "Sun": "Your current identity challenges this natal point. External circumstances or others oppose what this represents.",
+        "Moon": "Current emotional needs conflict with this natal point. What you need now tensions against this area of life.",
+        "Mercury": "Current thinking opposes this natal point. Mental perspective conflicts with what this area represents.",
+        "Venus": "Current relationships challenge this natal point. What you value now may conflict with this natal placement.",
+        "Mars": "Current drive opposes this natal point. Your actions now create friction with this area of life.",
+        "Jupiter": "Current growth challenges this natal point. Expansion in one area may restrict this placement.",
+        "Saturn": "Current restrictions oppose this natal point. Limitations now conflict with this area of life.",
+        "Uranus": "Current changes challenge this natal point. Disruption now creates tension with this placement.",
+        "Neptune": "Current ideals conflict with this natal point. What you imagine now may oppose this area's reality.",
+        "Pluto": "Current transformation opposes this natal point. Deep changes now create power struggles in this area."
+      },
+      "trine": {
+        "Sun": "Current self-expression harmonizes with this natal point. Opportunities flow naturally through this area now.",
+        "Moon": "Current emotions support this natal point. What you need aligns with what this area offers.",
+        "Mercury": "Current thinking supports this natal point. Mental clarity and communication flow here easily now.",
+        "Venus": "Current relationships harmonize with this natal point. Love and beauty enhance this area naturally.",
+        "Mars": "Current actions support this natal point. Energy flows productively through this area now.",
+        "Jupiter": "Current growth harmonizes with this natal point. Expansion happens naturally here with little resistance.",
+        "Saturn": "Current discipline supports this natal point. Structure and maturity develop easily in this area.",
+        "Uranus": "Current innovation harmonizes with this natal point. Change flows naturally without excessive disruption.",
+        "Neptune": "Current spirituality supports this natal point. Imagination and compassion enhance this area naturally.",
+        "Pluto": "Current transformation harmonizes with this natal point. Deep change flows powerfully but manageably."
+      },
+      "square": {
+        "Sun": "Current identity creates friction with this natal point. Growth through challenge is active in this area now.",
+        "Moon": "Current emotions create tension with this natal point. Uncomfortable feelings drive development here.",
+        "Mercury": "Current thinking creates friction with this natal point. Mental challenges force clarity in this area.",
+        "Venus": "Current values create tension with this natal point. Relationship challenges drive growth here now.",
+        "Mars": "Current actions create friction with this natal point. Dynamic tension motivates change in this area.",
+        "Jupiter": "Current expansion creates tension with this natal point. Growth comes through overcoming obstacles here.",
+        "Saturn": "Current restrictions create friction with this natal point. Difficult lessons force maturity in this area.",
+        "Uranus": "Current changes create tension with this natal point. Disruptive innovation forces adaptation here.",
+        "Neptune": "Current ideals create friction with this natal point. Confusion or disillusionment drives spiritual growth.",
+        "Pluto": "Current transformation creates intense friction with this natal point. Crisis drives profound change here."
+      },
+      "sextile": {
+        "Sun": "Current identity offers opportunity for this natal point. Conscious effort activates potential here.",
+        "Moon": "Current emotions offer opportunity for this natal point. Emotional engagement activates this area.",
+        "Mercury": "Current thinking offers opportunity for this natal point. Mental effort activates potential here.",
+        "Venus": "Current relationships offer opportunity for this natal point. Conscious appreciation activates this area.",
+        "Mars": "Current action offers opportunity for this natal point. Initiative activates potential here now.",
+        "Jupiter": "Current growth offers opportunity for this natal point. Optimistic effort expands this area.",
+        "Saturn": "Current discipline offers opportunity for this natal point. Strategic work activates potential here.",
+        "Uranus": "Current innovation offers opportunity for this natal point. Open-minded experimentation activates this area.",
+        "Neptune": "Current spirituality offers opportunity for this natal point. Creative imagination activates potential here.",
+        "Pluto": "Current transformation offers opportunity for this natal point. Deep work activates powerful change."
+      }
+    },
+    
+    "lunar_phases": {
+      "new_moon": {
+        "phase": "New Moon (0-45°)",
+        "keywords": "instinct, impulse, spontaneity, subjective experience",
+        "interpretation": "Born during the New Moon, you operate primarily through instinct and impulse. Your approach to life is spontaneous and subjective—you act first and analyze later. This phase indicates a personality that initiates without needing external validation. Your challenge is developing objectivity and learning from others' perspectives. You're here to start new cycles, trusting your gut even when you can't explain your knowing. The seed of consciousness is planted but not yet emerged into full awareness."
+      },
+      "crescent_moon": {
+        "phase": "Crescent Moon (45-90°)",
+        "keywords": "breaking away, struggle, determination, individualization",
+        "interpretation": "Born during the Crescent Moon, you're a natural fighter who breaks from the past to establish new directions. Your life involves struggle against inherited patterns or limitations. This phase indicates determination to become something different from your origins. Your challenge is knowing when to stop fighting and accept support. You're here to pioneer new possibilities by courageously separating from tradition. The sprout breaks through soil—visible but vulnerable."
+      },
+      "first_quarter": {
+        "phase": "First Quarter Moon (90-135°)",
+        "keywords": "crisis in action, decision, building, manifestation",
+        "interpretation": "Born during the First Quarter Moon, you face crises of action that force decisive choice. Your life involves building structures and manifesting intentions through concrete action. This phase indicates a personality that must act despite obstacles. Your challenge is overcoming doubt and commitment fears. You're here to translate vision into reality through persistent effort. The plant grows visibly—commitment to form is unavoidable."
+      },
+      "gibbous_moon": {
+        "phase": "Gibbous Moon (135-180°)",
+        "keywords": "refinement, analysis, perfection, dedication",
+        "interpretation": "Born during the Gibbous Moon, you analyze, refine, and perfect what you've built. Your life involves dedication to improvement and preparation. This phase indicates a personality focused on doing things right. Your challenge is accepting good enough and not getting lost in endless refinement. You're here to develop skills and prepare for meaningful contribution. The bud forms—not yet flowering but pregnant with potential."
+      },
+      "full_moon": {
+        "phase": "Full Moon (180-225°)",
+        "keywords": "fulfillment, objectivity, relationship, illumination",
+        "interpretation": "Born during the Full Moon, you seek fulfillment through relationship and objective understanding. Your life involves balancing opposing forces and seeing multiple perspectives. This phase indicates a personality that needs others to complete themselves. Your challenge is maintaining identity while deeply engaging with otherness. You're here to illuminate through clarity and achieve wholeness through integration of opposites. The flower blooms—maximum visibility and vulnerability."
+      },
+      "disseminating_moon": {
+        "phase": "Disseminating Moon (225-270°)",
+        "keywords": "sharing, teaching, demonstration, conviction",
+        "interpretation": "Born during the Disseminating Moon, you share what you've learned and teach through demonstration. Your life involves communicating meaningful understanding to others. This phase indicates a personality with something important to share. Your challenge is accepting that not everyone wants what you offer. You're here to spread seeds of wisdom that may bloom in future generations. The flower forms seeds—giving away accumulated knowledge."
+      },
+      "last_quarter": {
+        "phase": "Last Quarter Moon (270-315°)",
+        "keywords": "crisis in consciousness, reorientation, transformation, wisdom",
+        "interpretation": "Born during the Last Quarter Moon, you face crises of consciousness that force reorientation. Your life involves questioning established systems and transforming understanding. This phase indicates a personality that must break down old structures. Your challenge is not becoming bitter or cynical about necessary destruction. You're here to facilitate transition and prepare ground for new growth. The plant dies back—composting for future fertility."
+      },
+      "balsamic_moon": {
+        "phase": "Balsamic Moon (315-360°)",
+        "keywords": "release, transition, prophecy, endings",
+        "interpretation": "Born during the Balsamic Moon, you release the past and prepare for future emergence. Your life involves endings, transitions, and prophetic vision. This phase indicates a personality that sees what's coming before it arrives. Your challenge is functioning in the present while perceiving future potentials. You're here to midwife transition and hold space for what's dying and what's being born. The seed forms in darkness—pregnant with next cycle's potential."
+      }
+    },
+    
+    "solar_return": {
+      "interpretation": "Your Solar Return chart—calculated for the moment the Sun returns to its exact natal position—reveals the themes and opportunities of your upcoming year. This annual 'birthday chart' shows what the universe is emphasizing in your life from one birthday to the next. Pay special attention to which houses are activated and any planets closely aspecting your natal placements."
+    },
+    
+    "progressions": {
+      "interpretation": "Secondary Progressions reveal your psychological and spiritual age, which may differ from your physical age. Each day after birth equals one year of internal development. Your progressed chart shows how you've matured internally and what developmental themes are currently active in your psyche."
+    }
   }
 }
