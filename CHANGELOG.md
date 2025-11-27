@@ -17,9 +17,9 @@ v0.0.4:	added general horoscope based on sunsign that draws on a `.json` db
 
 v0.0.5:	added compatibility analyser with update to db to add various advices on potential partnerships based on potentials sun sign.
 
-:: [test `.exe` created using pyinstaller to distribute to test subject for feedback]
+:: [test executables created using GitHub actions workflow to distribute to test subject for feedback - needed macOS and Linux versions hence use of workflows]
 
-
+v0.0.6:	
 
 
 

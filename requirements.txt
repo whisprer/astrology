@@ -1,3 +1,18 @@
+# ──────────────────────────────
+# Core woflStrology dependencies
+# ──────────────────────────────
 geopy
 pyswisseph
 pytz
+
+# ──────────────────────────────
+# Building executables
+# ──────────────────────────────
+pyinstaller
+
+# ──────────────────────────────
+# Icon generation (icon_gen.py)
+# ──────────────────────────────
+numpy
+matplotlib
+pillow

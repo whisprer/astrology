@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --add-data "src/horoscope_database.json;." --name "WolfStrology-Windows" src/woflstrology-v0.0.5.py
+      - run: pyinstaller --onefile --icon=src/woflstrology.ico --add-data "src/horoscope_database.json;." --name "WolfStrology-Windows" src/woflstrology-v0.0.5.py
       - uses: actions/upload-artifact@v4
         with:
           name: windows-build
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --add-data "src/horoscope_database.json:." --name "WolfStrology-macOS" src/woflstrology-v0.0.5.py
+      - run: pyinstaller --onefile --icon=src/woflstrology.icns --add-data "src/horoscope_database.json:." --name "WolfStrology-macOS" src/woflstrology-v0.0.5.py
       - run: chmod +x dist/WolfStrology-macOS
       - uses: actions/upload-artifact@v4
         with:
