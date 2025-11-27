@@ -1,0 +1,243 @@
+{
+  "sun_sign_themes": {
+    "Aries": [
+      "Bold initiatives and leadership opportunities present themselves",
+      "Your natural courage and pioneering spirit are highlighted",
+      "Energy and enthusiasm drive your endeavors forward",
+      "Taking decisive action comes naturally during this period"
+    ],
+    "Taurus": [
+      "Stability and material security come into focus",
+      "Your appreciation for beauty and comfort is heightened",
+      "Patience and persistence yield tangible results",
+      "Building lasting foundations becomes a priority"
+    ],
+    "Gemini": [
+      "Communication and intellectual pursuits take center stage",
+      "Your curiosity and adaptability open new doors",
+      "Social connections and information exchange flourish",
+      "Versatility and quick thinking serve you well"
+    ],
+    "Cancer": [
+      "Emotional intuition and nurturing instincts are strong",
+      "Home and family matters receive special attention",
+      "Your protective nature and empathy shine through",
+      "Creating emotional security becomes important"
+    ],
+    "Leo": [
+      "Creative expression and personal magnetism are emphasized",
+      "Your natural leadership and warmth attract recognition",
+      "Self-expression and confidence reach new heights",
+      "Generosity and joy radiate from your actions"
+    ],
+    "Virgo": [
+      "Attention to detail and practical service are favored",
+      "Your analytical mind and organizational skills excel",
+      "Health and daily routines benefit from careful planning",
+      "Perfectionism and improvement drive your focus"
+    ],
+    "Libra": [
+      "Harmony and partnership dynamics come to the forefront",
+      "Your diplomatic skills and aesthetic sense are highlighted",
+      "Balance and fairness guide your decisions",
+      "Relationships and collaboration flourish naturally"
+    ],
+    "Scorpio": [
+      "Depth and transformation mark this period",
+      "Your intensity and investigative nature are powerful",
+      "Hidden matters and profound insights emerge",
+      "Emotional power and regeneration are at play"
+    ],
+    "Sagittarius": [
+      "Expansion and adventure call to your spirit",
+      "Your philosophical outlook and optimism grow",
+      "Learning and exploration open new horizons",
+      "Freedom and truth-seeking guide your path"
+    ],
+    "Capricorn": [
+      "Ambition and structural planning are emphasized",
+      "Your discipline and long-term vision pay dividends",
+      "Career and responsibility demand attention",
+      "Building authority and respect through effort"
+    ],
+    "Aquarius": [
+      "Innovation and independence shape your experience",
+      "Your humanitarian ideals and originality stand out",
+      "Group dynamics and future visions inspire action",
+      "Unconventional thinking breaks new ground"
+    ],
+    "Pisces": [
+      "Intuition and spiritual connection deepen",
+      "Your compassion and imagination are boundless",
+      "Dreams and creative inspiration flow freely",
+      "Sensitivity to others' needs guides your actions"
+    ]
+  },
+  "moon_sign_influences": {
+    "Aries": "energizing your emotional responses with spontaneity and courage",
+    "Taurus": "grounding your feelings in stability and sensory comfort",
+    "Gemini": "stimulating your mind with curiosity and need for variety",
+    "Cancer": "deepening your emotional sensitivity and nurturing instincts",
+    "Leo": "amplifying your need for recognition and creative self-expression",
+    "Virgo": "focusing your attention on practical matters and helpful service",
+    "Libra": "drawing you toward harmony, beauty, and partnership",
+    "Scorpio": "intensifying your emotional depth and desire for transformation",
+    "Sagittarius": "inspiring your quest for meaning, freedom, and adventure",
+    "Capricorn": "strengthening your emotional discipline and ambition",
+    "Aquarius": "heightening your need for independence and social ideals",
+    "Pisces": "enhancing your empathy, intuition, and spiritual connection"
+  },
+  "element_combinations": {
+    "Fire_Fire": "double fire energy creates intense passion, confidence, and dynamic action",
+    "Fire_Earth": "fire and earth blend initiative with practicality, creating productive momentum",
+    "Fire_Air": "fire and air unite enthusiasm with ideas, sparking inspired communication",
+    "Fire_Water": "fire and water combine passion with intuition, balancing action and feeling",
+    "Earth_Fire": "earth and fire merge stability with drive, grounding ambitious energy",
+    "Earth_Earth": "double earth energy emphasizes material focus, reliability, and tangible results",
+    "Earth_Air": "earth and air balance practical thinking with intellectual exploration",
+    "Earth_Water": "earth and water blend sensory awareness with emotional depth",
+    "Air_Fire": "air and fire join mental agility with bold expression and enthusiasm",
+    "Air_Earth": "air and earth combine logical analysis with practical application",
+    "Air_Air": "double air energy heightens communication, social connection, and mental activity",
+    "Air_Water": "air and water unite reason with emotion, balancing thought and feeling",
+    "Water_Fire": "water and fire merge emotional intensity with passionate action",
+    "Water_Earth": "water and earth combine emotional security with material stability",
+    "Water_Air": "water and air blend intuitive insight with intellectual understanding",
+    "Water_Water": "double water energy deepens emotional sensitivity, empathy, and psychic awareness"
+  },
+  "general_wisdom": [
+    "The stars suggest paying attention to subtle synchronicities around you",
+    "Planetary alignments favor inner reflection and personal growth",
+    "Current cosmic energies support authentic self-expression",
+    "The universe encourages you to trust your intuitive guidance",
+    "Celestial patterns indicate a time for mindful decision-making",
+    "Astrological influences remind you to balance giving and receiving",
+    "The heavens point toward opportunities for meaningful connection",
+    "Planetary movements suggest examining what truly matters to you",
+    "Cosmic rhythms invite you to honor your natural cycles and needs",
+    "The stars remind you that timing and patience work together"
+  ],
+  "house_daily_focus": {
+    "1": "focusing on personal identity, appearance, and how you initiate new beginnings",
+    "2": "highlighting your relationship with money, possessions, and personal values",
+    "3": "emphasizing communication, learning, and connections with your immediate environment",
+    "4": "drawing attention to home, family, and your emotional foundations",
+    "5": "spotlighting creativity, romance, pleasure, and self-expression",
+    "6": "bringing focus to daily routines, work, health, and acts of service",
+    "7": "illuminating partnerships, relationships, and how you relate to others",
+    "8": "deepening your engagement with transformation, shared resources, and intimacy",
+    "9": "expanding your horizons through travel, philosophy, and higher learning",
+    "10": "highlighting your career, public life, and reputation in the world",
+    "11": "connecting you with friends, groups, and your hopes for the future",
+    "12": "inviting introspection, spiritual practices, and engagement with the unconscious"
+  },
+  "compatibility": {
+    "element_dynamics": {
+      "Fire_Fire": "When two share this elemental nature, the temptation to move too quickly can overshadow the need for patience. Your mutual tendency toward independence may clash with desires for closeness, creating a push-pull dynamic that requires conscious navigation.",
+      "Fire_Earth": "The urge to rush forward meets resistance from caution, which can feel frustrating to both parties. One person's need for excitement may seem threatening to another's desire for security, yet this very tension offers opportunities for balanced growth.",
+      "Fire_Air": "Excitement builds rapidly between you, potentially creating unrealistic expectations about the relationship's trajectory. The fear that slowing down might diminish the spark can lead to avoidance of necessary deeper conversations about commitment and vulnerability.",
+      "Fire_Water": "Intensity of feeling can be both exhilarating and overwhelming. One person's directness may inadvertently wound another's sensitivity, while emotional depth might feel constraining to a free spirit. Both must navigate the anxiety between pursuing passion and protecting vulnerability.",
+      "Earth_Earth": "Shared caution can create safety but also stagnation. The fear of disrupting stability might prevent necessary risks in intimacy. Both parties may struggle with unexpressed needs, each waiting for the other to initiate emotional vulnerability, creating a standoff of unspoken longing.",
+      "Earth_Air": "Practical concerns may clash with intellectual idealism, creating misunderstandings about priorities. One person's need for concrete proof of commitment might seem limiting to another who values freedom of thought and flexibility, leading to frustration on both sides.",
+      "Earth_Water": "Deep emotional currents run beneath a stable surface, but unexpressed feelings can build into resentment. The tendency to prioritize security over emotional honesty may create distance even while maintaining the appearance of stability.",
+      "Air_Air": "Mental connection flows easily, but fear of emotional intensity may keep both parties circling around deeper intimacy. The tendency to intellectualize feelings rather than experience them can create a relationship that feels more like a friendship than a passionate partnership.",
+      "Air_Water": "Logic and emotion speak different languages, creating potential for misunderstanding. One person's need to process through talking may overwhelm another who needs quiet reflection. The anxiety about being truly understood can drive both parties into defensive patterns.",
+      "Water_Water": "Emotional intensity reaches profound depths, but the fear of drowning in feelings can cause periodic withdrawal. Both may struggle with boundaries, leading to cycles of enmeshment and distance that leave each person feeling insecure about the relationship's stability."
+    },
+    "universal_relationship_patterns": [
+      "Your tendency to seek reassurance may inadvertently push away the very connection you desire, creating a self-fulfilling prophecy of abandonment fears",
+      "The urge to prove your worth through constant availability can lead to resentment when that effort goes unacknowledged",
+      "Anxiety about the future may prevent you from fully experiencing the present moment of connection",
+      "The fear of appearing too eager can cause you to withhold genuine enthusiasm, creating emotional distance",
+      "Past disappointments may unconsciously influence current interactions, causing you to interpret neutral actions as rejection",
+      "The desire for control over the relationship's pace can manifest as either rushing forward or holding back, both stemming from the same underlying insecurity",
+      "Your need for independence conflicts with your desire for deep connection, creating internal tension that may confuse your partner",
+      "The tendency to overanalyze every interaction can drain spontaneity from moments that would otherwise feel natural",
+      "Fear of vulnerability may lead you to create tests or obstacles that your partner must overcome to prove their dedication",
+      "The impulse to fix or improve your partner stems from your own discomfort with imperfection, potentially making them feel inadequate",
+      "Difficulty expressing needs directly often results in disappointment when others fail to intuit what you want",
+      "The pattern of seeking external validation for your lovability prevents you from developing inner confidence in your worth",
+      "Comparing this relationship to idealized versions or past experiences blinds you to its unique possibilities",
+      "The urge to merge completely with another person may sacrifice the individual identity that attracted them initially",
+      "Resistance to change can keep you in a comfortable but unfulfilling dynamic rather than risk the unknown",
+      "The tendency to prioritize your partner's needs over your own creates an imbalanced dynamic that breeds resentment",
+      "Fear of conflict leads to avoiding difficult conversations, allowing small issues to accumulate into major problems",
+      "The impulse to prove you're different from your partner's past disappoints can make you inauthentic",
+      "Anxiety about commitment may cause you to focus on flaws rather than appreciating positive qualities",
+      "The need to maintain mystery or emotional unavailability as a form of self-protection ultimately prevents true intimacy"
+    ],
+    "compatibility_advice": {
+      "challenging": [
+        "This connection asks you to confront the parts of yourself you usually avoid. The discomfort you feel may actually indicate growth potential rather than incompatibility.",
+        "Your different approaches to life can feel threatening to your sense of self, but this friction offers opportunities to expand beyond your usual patterns.",
+        "The urge to change your partner into someone more familiar to you stems from fear of the unknown. Consider whether you're avoiding necessary self-evolution.",
+        "Frustration in this pairing often arises from projecting your own disowned qualities onto the other person. What you resist in them may reveal what you resist in yourself.",
+        "This relationship will challenge your assumptions about how love should look. The question is whether you can embrace a different model than you've imagined."
+      ],
+      "harmonious": [
+        "Easy compatibility can become complacent if you're not careful. The comfort you feel shouldn't prevent continued growth and discovery.",
+        "The natural flow between you might create unrealistic expectations that everything should always be effortless. Remember that all relationships require conscious effort.",
+        "Your similar approaches to life provide support but may also create an echo chamber. Seek out perspectives that challenge your shared assumptions.",
+        "The lack of obvious friction might cause you to mistake absence of conflict for depth of connection. Ensure you're building true intimacy, not just peaceful coexistence.",
+        "This harmonious energy can facilitate rapid bonding, but be wary of skipping important conversations about differences that exist beneath surface compatibility."
+      ],
+      "neutral": [
+        "Neither particularly easy nor difficult, this pairing requires conscious choice and effort. The relationship becomes what you both decide to make of it.",
+        "Your different but complementary natures mean that connection won't happen automatically. You must actively build bridges rather than expecting natural resonance.",
+        "This combination lacks the fireworks of instant attraction or the friction of obvious challenge. Whether that feels disappointing or relieving reveals your relationship patterns.",
+        "The neutral energy here places responsibility squarely on both individuals to create the relationship dynamic you want. There's no predetermined script to follow.",
+        "Without strong astrological push in either direction, you're free to write your own story. This can feel liberating or daunting depending on your comfort with ambiguity."
+      ]
+    },
+    "transit_influences_on_relationships": {
+      "venus_retrograde": [
+        "Unresolved relationship patterns from your past are surfacing for examination. The temptation to repeat familiar dynamics is strong, even when those patterns didn't serve you previously.",
+        "Your perception of what you find attractive may be shifting, causing confusion about what you truly want versus what you thought you wanted.",
+        "Old flames or past connections may reappear in your thoughts or reality, not necessarily to be rekindled but to offer perspective on your growth.",
+        "The value you place on partnership itself is under review. Questions about whether you're seeking connection from wholeness or from a sense of lack become important."
+      ],
+      "mars_retrograde": [
+        "Passive patterns in how you assert your needs may create frustration. The energy to pursue what you want feels internalized, requiring you to examine your motivations before acting.",
+        "Anger or resentment that you've been suppressing in relationships may surface in indirect ways, demanding honest acknowledgment.",
+        "Your usual approach to pursuing romantic interests feels less effective. This pause allows you to question whether your typical strategy aligns with who you're becoming.",
+        "Sexual or physical chemistry may feel different than usual, potentially revealing whether your connection is built on multiple levels or primarily physical attraction."
+      ],
+      "mercury_retrograde": [
+        "Misunderstandings arise easily from assumptions about what hasn't been explicitly stated. The importance of clear, direct communication becomes unavoidable.",
+        "Technology-based connection may fail at crucial moments, forcing you to rely on in-person interaction or accept periods of silence.",
+        "Past conversations or unresolved discussions resurface, offering second chances to address what was left unsaid or misunderstood.",
+        "The way you've been telling yourself the story of this relationship may shift as new information or perspectives emerge, requiring you to update your narrative."
+      ],
+      "jupiter_expansion": [
+        "Optimism about the relationship's potential can lead to overlooking practical concerns or rushing important stages of development.",
+        "Generosity flows easily between you, but ensure it's reciprocal rather than one person giving excessively to maintain the other's interest.",
+        "The relationship may expand into new territories—meeting families, discussing future plans, or deepening commitment—faster than you anticipated.",
+        "Your vision of what's possible together grows, but beware of projecting an idealized future rather than appreciating what exists now."
+      ],
+      "saturn_restriction": [
+        "Tests of commitment and seriousness make superficial connection difficult to maintain. The relationship must deepen or naturally conclude.",
+        "Responsibilities outside the relationship may limit time and energy available for romance, revealing whether the connection can withstand real-world pressures.",
+        "Fears about long-term viability surface, requiring honest assessment of whether concerns are realistic or based on old wounds.",
+        "The structure of how you relate to each other may need redefinition. Rules and expectations that worked initially may require maturation."
+      ],
+      "uranus_disruption": [
+        "Unexpected changes in circumstances or perspective can shake the relationship's foundation. Flexibility and adaptability become essential.",
+        "The urge for freedom and independence intensifies, creating tension with the vulnerability that intimacy requires.",
+        "Sudden insights about the relationship's true nature—positive or negative—arrive without warning, demanding honest acknowledgment.",
+        "Unconventional approaches to partnership may appeal where traditional structures felt limiting, though impulsiveness should be balanced with consideration."
+      ],
+      "neptune_illusion": [
+        "The boundary between romantic fantasy and reality blurs. What you're experiencing may be idealization rather than accurate perception of your partner.",
+        "Confusion about the relationship's status or the other person's intentions persists despite attempts to clarify. Trust your instincts if something feels unclear.",
+        "Compassion and empathy deepen, but be wary of sacrificing your needs to rescue or fix your partner.",
+        "Spiritual or creative connection may transcend ordinary relating, offering beautiful moments while potentially avoiding practical necessities."
+      ],
+      "pluto_transformation": [
+        "Power dynamics in the relationship surface for examination. Issues of control, manipulation, or surrender can no longer be avoided.",
+        "The relationship triggers deep psychological material—wounds, fears, compulsions—that demand to be faced rather than repressed.",
+        "An ending or profound transformation feels inevitable. Whether this means the relationship concludes or evolves into something new depends on both parties' willingness to change.",
+        "Intensity reaches levels that feel almost unbearable. The question becomes whether you're destroying something necessary or releasing what no longer serves."
+      ]
+    }
+  }
+}
