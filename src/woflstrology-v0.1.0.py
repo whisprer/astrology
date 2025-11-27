@@ -1789,17 +1789,6 @@ def main():
         
         print(synastry_reading)
         
-        # Calculate natal planetary positions
-        natal_chart_positions = calculate_full_natal_chart(
-            natal_year, natal_month, natal_day, natal_hour, natal_minute, 0,
-            birth_lat, birth_lon, birth_tz
-        )
-        
-        natal_reading = generate_natal_chart_reading(
-            natal_chart_positions, house_data, horoscope_db
-        )
-        print(natal_reading)
-
     # Display current positions
     print("\n🌟 CURRENT PLANETARY POSITIONS")
     print(f"Date: {transit_year}-{transit_month:02d}-{transit_day:02d} {transit_hour:02d}:{transit_minute:02d}")
