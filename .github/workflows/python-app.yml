@@ -16,7 +16,7 @@ jobs:
       # DEBUG: Check if icon exists
       - name: Check icon file
         run: |
-          if (Test-Path src/wolfstrology.ico) {
+          if (Test-Path src/woflstrology.ico) {
             Write-Host "✓ Icon file found"
             Get-Item src/woflstrology.ico | Format-List
           } else {
@@ -25,11 +25,11 @@ jobs:
         shell: pwsh
       
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --icon=src/woflstrology.ico --add-data "src/horoscope_database.json;." --name "WolfStrology-Windows" src/woflstrology-v0.0.5.py
+      - run: pyinstaller --onefile --icon=src/woflstrology.ico --add-data "src/horoscope_database.json;." --name "WoflStrology-Windows" src/woflstrology-v0.4.0.py
       - uses: actions/upload-artifact@v4
         with:
           name: windows-build
-          path: dist/WolfStrology-Windows.exe
+          path: dist/WoflStrology-Windows.exe
 
   build-macos:
     runs-on: macos-latest
@@ -50,12 +50,12 @@ jobs:
           fi
       
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --icon=src/woflstrology.icns --add-data "src/horoscope_database.json:." --name "WolfStrology-macOS" src/woflstrology-v0.0.5.py
-      - run: chmod +x dist/WolfStrology-macOS
+      - run: pyinstaller --onefile --icon=src/woflstrology.icns --add-data "src/horoscope_database.json:." --name "WoflStrology-macOS" src/woflstrology-v0.4.0.py
+      - run: chmod +x dist/WoflStrology-macOS
       - uses: actions/upload-artifact@v4
         with:
           name: macos-build
-          path: dist/WolfStrology-macOS
+          path: dist/WoflStrology-macOS
 
   build-linux:
     runs-on: ubuntu-latest
@@ -65,9 +65,9 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --add-data "src/horoscope_database.json:." --name "WolfStrology-Linux" src/woflstrology-v0.0.5.py
-      - run: chmod +x dist/WolfStrology-Linux
+      - run: pyinstaller --onefile --add-data "src/horoscope_database.json:." --name "WoflStrology-Linux" src/woflstrology-v0.4.0.py
+      - run: chmod +x dist/WoflStrology-Linux
       - uses: actions/upload-artifact@v4
         with:
           name: linux-build
-          path: dist/WolfStrology-Linux
+          path: dist/WoflStrology-Linux

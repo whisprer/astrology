@@ -1,3 +1,6 @@
+# Cos the damned astorb.dat is 330MB+
+*.dat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
