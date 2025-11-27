@@ -1,0 +1,41 @@
+name: Build Executables
+
+on: [push]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - run: pip install pyswisseph pytz geopy pyinstaller
+      - run: pyinstaller --onefile --add-data "horoscope_database.json;." --name "WolfStrology-Windows" woflstrology-v0.0.5.py
+      - uses: actions/upload-artifact@v2
+        with:
+          name: windows-build
+          path: dist/WolfStrology-Windows.exe
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - run: pip install pyswisseph pytz geopy pyinstaller
+      - run: pyinstaller --onefile --add-data "horoscope_database.json:." --name "WolfStrology-macOS" woflstrology-v0.0.5.py
+      - uses: actions/upload-artifact@v2
+        with:
+          name: macos-build
+          path: dist/WolfStrology-macOS
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - run: pip install pyswisseph pytz geopy pyinstaller
+      - run: pyinstaller --onefile --add-data "horoscope_database.json:." --name "WolfStrology-Linux" woflstrology-v0.0.5.py
+      - uses: actions/upload-artifact@v2
+        with:
+          name: linux-build
+          path: dist/WolfStrology-Linux
+          
