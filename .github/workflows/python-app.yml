@@ -25,7 +25,7 @@ jobs:
         shell: pwsh
       
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --icon=src/woflstrology.ico --add-data "src/horoscope_database.json;." --name "WoflStrology-Windows" src/woflstrology-v0.4.0.py
+      - run: pyinstaller --onefile --icon=src/woflstrology.ico --add-data "src/horoscope_database.json;." --name "WoflStrology-Windows" src/woflstrology-v0.4.1.py
       - uses: actions/upload-artifact@v4
         with:
           name: windows-build
@@ -50,7 +50,7 @@ jobs:
           fi
       
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --icon=src/woflstrology.icns --add-data "src/horoscope_database.json:." --name "WoflStrology-macOS" src/woflstrology-v0.4.0.py
+      - run: pyinstaller --onefile --icon=src/woflstrology.icns --add-data "src/horoscope_database.json:." --name "WoflStrology-macOS" src/woflstrology-v0.4.1.py
       - run: chmod +x dist/WoflStrology-macOS
       - uses: actions/upload-artifact@v4
         with:
@@ -65,7 +65,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyswisseph pytz geopy pyinstaller
-      - run: pyinstaller --onefile --add-data "src/horoscope_database.json:." --name "WoflStrology-Linux" src/woflstrology-v0.4.0.py
+      - run: pyinstaller --onefile --add-data "src/horoscope_database.json:." --name "WoflStrology-Linux" src/woflstrology-v0.4.1.py
       - run: chmod +x dist/WoflStrology-Linux
       - uses: actions/upload-artifact@v4
         with:
