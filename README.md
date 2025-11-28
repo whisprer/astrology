@@ -30,7 +30,7 @@
 [![Status](https://img.shields.io/badge/Status-Alpha%20Release-orange?style=flat-square)](CHANGELOG.md)
 
 <p align="center">
-  <img src="1-gen-docs-banner.png" width="850" alt="1-Gen-Docs Banner">
+  <img src="/assets/woflStrology-banner.png" width="850" alt="woflStrology Banner">
 
 
 # woflStrology
