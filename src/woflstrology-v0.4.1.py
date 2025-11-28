@@ -4,11 +4,11 @@ Advanced Astrological Position Calculator with Compatibility Analysis
 Full natal chart, transits, and relationship compatibility
 """
 
-import swisseph as swe
+import swisseph as swe # type: ignore
 from datetime import datetime, timedelta
-import pytz
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut, GeocoderServiceError
+import pytz # type: ignore
+from geopy.geocoders import Nominatim # type: ignore
+from geopy.exc import GeocoderTimedOut, GeocoderServiceError # type: ignore
 import time
 import json
 import random
@@ -1781,11 +1781,9 @@ def get_sabian_interpretation(planet_name, longitude, horoscope_db):
 
 def calculate_asteroid(asteroid_number, year, month, day, hour, minute, second, timezone_str="UTC"):
     """
-    Calculate asteroid position by parsing astorb.dat and computing from orbital elements
-    This bypasses Swiss Ephemeris entirely for asteroids
+    Calculate asteroid position using Swiss Ephemeris
+    Returns position data or None if calculation fails
     """
-    import math
-    
     try:
         # Convert to UTC and get Julian Date
         tz = pytz.timezone(timezone_str)
@@ -1794,17 +1792,12 @@ def calculate_asteroid(asteroid_number, year, month, day, hour, minute, second, 
         decimal_hour = utc_dt.hour + utc_dt.minute/60.0 + utc_dt.second/3600.0
         jd = swe.julday(utc_dt.year, utc_dt.month, utc_dt.day, decimal_hour)
         
-        # Parse astorb.dat to find this asteroid's orbital elements
-        orbital_elements = parse_astorb_for_asteroid(asteroid_number, ephe_path)
+        # Use Swiss Ephemeris to calculate asteroid position
+        se_num = swe.AST_OFFSET + asteroid_number
+        result, ret_flag = swe.calc_ut(jd, se_num, swe.FLG_SWIEPH)
         
-        if not orbital_elements:
-            return None
-        
-        # Calculate position from orbital elements
-        longitude = calculate_position_from_elements(jd, orbital_elements)
-        
-        if longitude is None:
-            return None
+        longitude = result[0]
+        speed = result[3] if len(result) > 3 else 0.0
         
         # Normalize longitude to 0-360
         longitude = longitude % 360.0
@@ -1815,8 +1808,8 @@ def calculate_asteroid(asteroid_number, year, month, day, hour, minute, second, 
             "longitude": longitude,
             "sign": sign,
             "degrees_in_sign": longitude % 30,
-            "speed": 0.0,  # We're not calculating speed for now
-            "retrograde": False
+            "speed": speed,
+            "retrograde": speed < 0
         }
         
     except Exception as e:
@@ -2042,7 +2035,7 @@ def search_asteroid_by_name(search_name, ephe_path=None):
     
     # Fallback to hardcoded names if astorb.dat search fails
     matches = []
-        search_names_lower = search_name.lower().strip()
+    search_name_lower = search_name.lower().strip()
     
     # Existing hardcoded dictionary
     common_names = {
